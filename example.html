@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-    <audio canplaythrough="alert('loaded'); this.play()" loop controls="false" style = 'display: none;' src = "https://genius6942.github.io/lightning.js/tesla-coil.mp3"></audio>
+    <audio oncanplaythrough="this.play()" loop controls="false" style = 'display: none;' src = "https://genius6942.github.io/lightning.js/tesla-coil.mp3"></audio>
     <script type = 'module'>
 		import Lightning, { Vector } from 'https://genius6942.github.io/lightning.js/lightning.module.js';
         const canvas = document.body.appendChild(document.createElement('canvas'));

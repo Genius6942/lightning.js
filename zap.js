@@ -86,3 +86,5 @@ class Lightning {
 		return this
 	}
 }
+
+window.Lightning = Lightning

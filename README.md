@@ -1,4 +1,4 @@
-# zap.js
+-# zap.js
 Creates lightning.
 
 # Use:
@@ -26,3 +26,6 @@ var boom = new Lightning({x: 1, y: 1}, {x: 300, y: 300});
 	- range `number`: How far from the straight line path the lighting can get. Defaults to `50`
 	- stepLength `number`: vertical distance between each point on the lightning when generated. Defautls to `4`
 	- changeRate `number`: max horizontal distance between two points on the bolt. Defaults to `4`
+
+
+## You can view a live demo [here](https://genius6942.github.io/lightning.js/example.html)
